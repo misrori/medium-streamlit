@@ -3,3 +3,4 @@ pandas
 plotly
 goldhand
 setuptools
+numpy==2.0.0
