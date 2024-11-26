@@ -10,6 +10,4 @@ p = t.plotly_last_year(tw.get_plotly_title(ticker))
 
 
 
-# Create Plotly plot
-#fig = go.Figure(data=[go.Bar(x=['A', 'B', 'C'], y=[10, 20, 30])])
-st.plotly_chart(p)
+st.plotly_chart(p, use_container_width=True)
